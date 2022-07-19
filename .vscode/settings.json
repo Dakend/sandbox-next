@@ -1,0 +1,15 @@
+{
+  "[typescript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "css.validate": false,
+  // "editor.codeActionsOnSave": ["source.fixAll.eslint"],
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true, // 自動フォーマット
+  "editor.quickSuggestions": { "strings": true }, // 入力中に補完候補をだすかどうか　以下の設定でコメントの中でもどこでも補完候補を出せるようになる
+  "files.encoding": "utf8",
+  "files.eol": "\n",
+  "typescript.preferences.importModuleSpecifier": "non-relative", //相対パスでの import を優先
+  "typescript.tsdk": "node_modules/typescript/lib", // vscode で使用する ts の version を一致させる
+  "editor.renderLineHighlight": "all", // 今いる行が強調される
+  "editor.dragAndDrop": false // 選択した部分のドラッグアンドドロップを許可するかどうか
+}
